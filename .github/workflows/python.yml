@@ -15,9 +15,9 @@ permissions:
 env:
   BACK_URL: 'http://127.0.0.1:8000'
   FRONT_URL: 'http://127.0.0.1:3000'
-  POSTGRES_DB: 'product_type'
+  POSTGRES_DB: 'test'
   POSTGRES_NAME: 'postgres'
-  POSTGRES_PASSWORD: 1234
+  POSTGRES_PASSWORD: 'postgres'
   POSTGRES_HOST: 'localhost'
   POSTGRES_PORT: 5432
 
