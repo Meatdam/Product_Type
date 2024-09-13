@@ -5,7 +5,7 @@ from starlette import status
 from src.base.responses import ResponseSchema
 from src.config.session import get_async_session
 from src.product_type.session import ProductTypeSessions
-from src.product_type.shemas import CreateTypeProductSchema, ProductTypeDetailSchema
+from src.product_type.schemas import CreateTypeProductSchema, ProductTypeDetailSchema
 
 product_type_router = APIRouter()
 
