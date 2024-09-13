@@ -24,7 +24,7 @@ class ProductListSchema(BaseProductSchema):
     """Product list scheme."""
 
 
-from src.product_type.shemas import TypeProductSchema
+from src.product_type.schemas import TypeProductSchema
 
 
 class ProductDetailSchema(BaseProductSchema):
