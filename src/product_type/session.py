@@ -21,7 +21,6 @@ class ProductTypeSessions:
                 query = insert(ProductTypeDB).values(**product_type).returning(ProductTypeDB)
                 return await self.session.scalar(query)
             except IntegrityError as err:
-                print(f'Посмотри {err}')
                 return handle_error(err)
 
     async def get_product_type_by_id(self, type_id: int) -> ProductTypeDetailSchema:
