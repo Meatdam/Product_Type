@@ -5,7 +5,7 @@ from sqlalchemy.orm import selectinload
 
 from src.base.utils import handle_error
 from src.models.models import ProductTypeDB
-from src.product_type.shemas import CreateTypeProductSchema, ProductTypeDetailSchema
+from src.product_type.schemas import CreateTypeProductSchema, ProductTypeDetailSchema
 
 
 class ProductTypeSessions:
